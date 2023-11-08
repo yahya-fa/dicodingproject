@@ -9,9 +9,9 @@ path = "F:/BELAJAR dicoding/dicodingproject/hour.csv"
  
 start = "/BELAJAR dicoding/dicodingproject"
 
-df = os.path.relpath(path, start)
+relative_path = os.path.relpath(path, start)
 
-#df = pd.read_csv('../../dicodingproject/hour.csv')
+df = pd.read_csv(relative_path)
 
 df = df.rename(columns= {'weathersit': 'weather',
                                    'yr': 'year',
