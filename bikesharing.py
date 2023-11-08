@@ -16,7 +16,7 @@ df = df.rename(columns= {'weathersit': 'weather',
                                    'cnt': 'count' })
 df.head()
 
-df = df.drop(columns= ['instant','dteday', 'year'])
+#df = df.drop(columns= ['instant','dteday', 'year'])
 
 cols = ['season', 'month', 'hour', 'holiday', 'weekday', 'workingday', 'weather']
 for col in cols:
