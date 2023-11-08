@@ -3,13 +3,9 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
-import os
 
-path = "F:/BELAJAR dicoding/dicodingproject/hour.csv"
- 
-#start = "/BELAJAR dicoding/dicodingproject"
 
-#relative_path = os.path.relpath(path, start)
+relative_path = os.path.relpath(path, start)
 
 df = pd.read_csv(path)
 
