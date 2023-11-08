@@ -4,7 +4,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-df = pd.read_csv('F:/BELAJAR dicoding/dicodingproject/hour.csv')
+
+df = pd.read_csv('../../dicodingproject/hour.csv')
 
 df = df.rename(columns= {'weathersit': 'weather',
                                    'yr': 'year',
