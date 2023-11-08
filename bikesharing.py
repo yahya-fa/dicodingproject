@@ -3,9 +3,15 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
+import os
 
+path = "F:/BELAJAR dicoding/dicodingproject/hour.csv"
+ 
+start = "/BELAJAR dicoding/dicodingproject"
 
-df = pd.read_csv('../../dicodingproject/hour.csv')
+df = os.path.relpath(path, start)
+
+#df = pd.read_csv('../../dicodingproject/hour.csv')
 
 df = df.rename(columns= {'weathersit': 'weather',
                                    'yr': 'year',
