@@ -1,4 +1,3 @@
-aiohttp @ file:///C:/b/abs_b78zt6vo64/croot/aiohttp_1694181126607/work
 aiosignal @ file:///home/conda/feedstock_root/build_artifacts/aiosignal_1667935791922/work
 altair @ file:///home/conda/feedstock_root/build_artifacts/altair_1696364485230/work
 anyio @ file:///home/conda/feedstock_root/build_artifacts/anyio_1688651106312/work/dist
