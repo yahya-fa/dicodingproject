@@ -4,10 +4,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+url = 'https://github.com/yahya-fa/dicodingproject/blob/main/hour.csv?raw=true'
 
-relative_path = os.path.relpath(path, start)
-
-df = pd.read_csv(path)
+df = pd.read_csv(url, index_col=0)
 
 df = df.rename(columns= {'weathersit': 'weather',
                                    'yr': 'year',
