@@ -7,11 +7,11 @@ import os
 
 path = "F:/BELAJAR dicoding/dicodingproject/hour.csv"
  
-start = "/BELAJAR dicoding/dicodingproject"
+#start = "/BELAJAR dicoding/dicodingproject"
 
-relative_path = os.path.relpath(path, start)
+#relative_path = os.path.relpath(path, start)
 
-df = pd.read_csv(relative_path)
+df = pd.read_csv(path)
 
 df = df.rename(columns= {'weathersit': 'weather',
                                    'yr': 'year',
